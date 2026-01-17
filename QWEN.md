@@ -208,3 +208,12 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- TypeScript with Next.js 16+ + Next.js 16+ App Router, Tailwind CSS, shadcn/ui components, framer-motion for animations, axios for API calls, next-themes for dark/light mode (002-frontend-ui)
+- N/A (client-side only, data stored via API calls) (002-frontend-ui)
+- Python 3.11 + FastAPI, SQLModel, python-jose, pydantic, Neon PostgreSQL driver (003-backend-spec)
+- Neon Serverless PostgreSQL (async) (003-backend-spec)
+
+## Recent Changes
+- 002-frontend-ui: Added TypeScript with Next.js 16+ + Next.js 16+ App Router, Tailwind CSS, shadcn/ui components, framer-motion for animations, axios for API calls, next-themes for dark/light mode
